@@ -1,0 +1,527 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'es' Physical Memory: 16313 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Usuario/Documents/Escape room primer corte/Roomscape_alt
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+61591
+Successfully changed project path to: C:/Users/Usuario/Documents/Escape room primer corte/Roomscape_alt
+C:/Users/Usuario/Documents/Escape room primer corte/Roomscape_alt
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17476] Host "[IP] 192.168.18.4 [Port] 0 [Flags] 2 [Guid] 1405355948 [EditorId] 1405355948 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-21721317) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17476] Host "[IP] 192.168.18.4 [Port] 0 [Flags] 2 [Guid] 1405355948 [EditorId] 1405355948 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-21721317) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Documents/Escape room primer corte/Roomscape_alt/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX550/550 Series (ID=0x699f)
+    Vendor:   ATI
+    VRAM:     1992 MB
+    Driver:   31.0.14037.17019
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007481 seconds.
+- Loaded All Assemblies, in  0.312 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 556ms
+	BeginReloadAssembly (79ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (245ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (189ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Documents\Escape room primer corte\Roomscape_alt\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Documents\Escape room primer corte\Roomscape_alt\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.622 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.447 seconds
+Domain Reload Profiling: 1067ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (265ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (237ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (448ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.5 KB). Loaded Objects now: 3590.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 3.011200 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.180800 ms MarkObjects: 2.493700 ms  DeleteObjects: 0.085600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 918715.620414 seconds.
+  path: Assets/Room/textures/bookcase/bookcasewood_Normal_DirectX.png
+  artifactKey: Guid(2afc21b6193986f449969505ac62f9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/bookcase/bookcasewood_Normal_DirectX.png using Guid(2afc21b6193986f449969505ac62f9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae53ad2e960de505fd0512e0eac2b63') in 0.093878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.536698 seconds.
+  path: Assets/Room/textures/window/border.001_Height.png
+  artifactKey: Guid(1d8dbcbe7eacc4b40b77f332dcdb204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/window/border.001_Height.png using Guid(1d8dbcbe7eacc4b40b77f332dcdb204b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe8730eacd9d45672a9660e9913914a') in 0.026075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.075898 seconds.
+  path: Assets/Room/textures/window/border.001_Normal.png
+  artifactKey: Guid(7e0545427c75da245b842585d8e155d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/window/border.001_Normal.png using Guid(7e0545427c75da245b842585d8e155d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679fd1f9c58627f850c5d6c20f1893cf') in 0.021314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.529726 seconds.
+  path: Assets/Asset pack for horror game/Models/broken bed/broken bed_Metallic.png
+  artifactKey: Guid(5933b0b03f30cb44d85f039f25bde9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/broken bed/broken bed_Metallic.png using Guid(5933b0b03f30cb44d85f039f25bde9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f4785a872a7c8b9b282eac226ca3c7') in 0.022623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood_Roughness.png
+  artifactKey: Guid(517fb48bc22db8641ad4f917eec27629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood_Roughness.png using Guid(517fb48bc22db8641ad4f917eec27629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c67d08df72e896d697d610ea4b15f50') in 0.021761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset pack for horror game/Models/broken bed/broken bed_Roughness.png
+  artifactKey: Guid(b70a65a26d6f7b040aabd82ea7d4b9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/broken bed/broken bed_Roughness.png using Guid(b70a65a26d6f7b040aabd82ea7d4b9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8793b68e49dd6fbd6b69700167e7c0') in 0.022003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041253 seconds.
+  path: Assets/Asset pack for horror game/Models/broken window/broken window_Normal.png
+  artifactKey: Guid(06b240cae9db6e44ead71d04253bd457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/broken window/broken window_Normal.png using Guid(06b240cae9db6e44ead71d04253bd457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aa2d9e5268a251b3203c5e1dfd6f41') in 0.024344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6168b1c4dd5f14bd12a8e0960449e677') in 0.020509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain_Normal.png
+  artifactKey: Guid(aeda16c0f90e79a4dbd2bedcf9cc9d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain_Normal.png using Guid(aeda16c0f90e79a4dbd2bedcf9cc9d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83eb83aa3cff5c3b02337c5170f42a2c') in 0.025127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Asset pack for horror game/Models/Door/Door_BaseColor.png
+  artifactKey: Guid(e5d96c6efeb1f454a93d81c3bb474bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Door/Door_BaseColor.png using Guid(e5d96c6efeb1f454a93d81c3bb474bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d42dc18a34ae900e2be38b90cb6db2b') in 0.021501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset pack for horror game/Models/Door/Door_Normal.png
+  artifactKey: Guid(d9283217b63c0c045baea0f803310531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Door/Door_Normal.png using Guid(d9283217b63c0c045baea0f803310531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0f02d7919aa745703a202bba224d82') in 0.029603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b709c6d6709dd712acd9e5923fdf80') in 0.020729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain_BaseColor.png
+  artifactKey: Guid(30f8fcb72ee16d54bab1d2082e8468c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/dirty curtain/dirty curtain_BaseColor.png using Guid(30f8fcb72ee16d54bab1d2082e8468c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b027cf8bfe070a38b6a4a041bdba6c98') in 0.021652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47799c5faf55edae341e4c1c0e3129e4') in 0.022392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b1903af01b405532f37c5c01e968f7') in 0.020098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset pack for horror game/Models/Door/Door_Metallic.png
+  artifactKey: Guid(551e123679236284b85b04bc50a22094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Door/Door_Metallic.png using Guid(551e123679236284b85b04bc50a22094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f745be964c5454513ff1591d03a79e4b') in 0.021030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Room/textures/window/iner.png
+  artifactKey: Guid(74bbac6cce5b5584f84349c71a45aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/window/iner.png using Guid(74bbac6cce5b5584f84349c71a45aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac6bd9ffee8a6a4abd001fedc0b2b73') in 0.019407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_BaseColor.png
+  artifactKey: Guid(f58759c9b42596440a42a54516cb6536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_BaseColor.png using Guid(f58759c9b42596440a42a54516cb6536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5572ccccd6e20deb42db172629008a9') in 0.023858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Room/textures/bookcase/New_Graph_normal.png
+  artifactKey: Guid(0611457103e948845906f0bb78e5eeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/bookcase/New_Graph_normal.png using Guid(0611457103e948845906f0bb78e5eeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dc237a16c872c3ad34b50144de3ee2') in 0.021195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Room/textures/floor/4K/marble_1_normal.png
+  artifactKey: Guid(6101c24f09c24084c9619f1bda57e076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/floor/4K/marble_1_normal.png using Guid(6101c24f09c24084c9619f1bda57e076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca81da25be000292b7122b6f4f1019cf') in 0.025622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Room/textures/pillars/pilers_Mixed_AO.png
+  artifactKey: Guid(cffd7f77141192c4283c3f20a3648952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/pillars/pilers_Mixed_AO.png using Guid(cffd7f77141192c4283c3f20a3648952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e6da6b4a4be5f04aafbe29491e5016') in 0.020277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Room/Settings/post proscessing 1.PNG
+  artifactKey: Guid(682b8dad83672a748849701458c993e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/Settings/post proscessing 1.PNG using Guid(682b8dad83672a748849701458c993e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beec8ecbffdd02dbdb4fa934c5b29c27') in 0.020001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9310120b613a968e0ddb2f839818abee') in 0.024495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Level1/ReflectionProbe-0.exr
+  artifactKey: Guid(9d70c05a4e079da4b8eb5e8a1f9aa4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1/ReflectionProbe-0.exr using Guid(9d70c05a4e079da4b8eb5e8a1f9aa4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca24aadac09dec4d1923a41a7eaf501') in 0.047874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset pack for horror game/Models/Room/Room_Normal.png
+  artifactKey: Guid(2f1d8375ca7bcfa48a1aff6171fbf6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Room/Room_Normal.png using Guid(2f1d8375ca7bcfa48a1aff6171fbf6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d2f98c4a4351bdceb9dcba40f5520b') in 0.025852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4600f2f3748c9ca5418f080b30b2f14') in 0.024012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/Window/Window_Roughness.png
+  artifactKey: Guid(156eb670b86d5d34ab330b9fa4d55b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Window/Window_Roughness.png using Guid(156eb670b86d5d34ab330b9fa4d55b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcca1e016d3113cd574657db79edd8e2') in 0.019920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Room/textures/floor/4K/marble_1_height.png
+  artifactKey: Guid(515611624ea29714fb9309dab82827d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/floor/4K/marble_1_height.png using Guid(515611624ea29714fb9309dab82827d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3406f71b0ab8b73de9b61736f5067aed') in 0.027074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Asset pack for horror game/Models/wood chair/wood chair_Metallic.png
+  artifactKey: Guid(f55fa5d00d6b8c141b60ff6e49479fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/wood chair/wood chair_Metallic.png using Guid(f55fa5d00d6b8c141b60ff6e49479fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a478ec153f905a5d0d7327ecf573a783') in 0.024535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset pack for horror game/Models/Window/Window_BaseColor.png
+  artifactKey: Guid(edcc162d20b7d8b4d9b40f532387669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Window/Window_BaseColor.png using Guid(edcc162d20b7d8b4d9b40f532387669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fe67b3e3af7c6c8b7d04b35eeed465') in 0.027181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d86415f5a04db38971f830371ce37e') in 0.020346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset pack for horror game/Models/wood chair/wood chair_BaseColor.png
+  artifactKey: Guid(6ebcc17071772914aa0aef1294ad9d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/wood chair/wood chair_BaseColor.png using Guid(6ebcc17071772914aa0aef1294ad9d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae01831fcfe18950cc84fcba2e8712d5') in 0.027561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Asset pack for horror game/Models/Wheelchair/Wheelchair_Normal.png
+  artifactKey: Guid(5c56e6c363ad2444da913ede19b7a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wheelchair/Wheelchair_Normal.png using Guid(5c56e6c363ad2444da913ede19b7a3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e4923dce3d85fc7f16d6b2f41a05b2') in 0.022254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset pack for horror game/Models/Wooden table/Wooden table_Metallic.png
+  artifactKey: Guid(c953209abd00be843955094ee0b98ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wooden table/Wooden table_Metallic.png using Guid(c953209abd00be843955094ee0b98ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b312d64e6d28f18a1f496285f64795d2') in 0.025014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Room/textures/window/trancpernt + base color emmesive.hdr
+  artifactKey: Guid(0886c0e4b6e88fc45b83b22092e8b8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/window/trancpernt + base color emmesive.hdr using Guid(0886c0e4b6e88fc45b83b22092e8b8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ecd5b8e3df0ea3f99d28e9bb144d9b') in 0.021505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset pack for horror game/Models/Wheelchair/Wheelchair_Roughness.png
+  artifactKey: Guid(2308b892daad43c489ecc6ff557cbd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wheelchair/Wheelchair_Roughness.png using Guid(2308b892daad43c489ecc6ff557cbd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523afdf3370185441c7bbd80ec4a497d') in 0.020488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Room/textures/pillars/pilers_Base_Color.png
+  artifactKey: Guid(141e9872767692f4ebd522242465b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/pillars/pilers_Base_Color.png using Guid(141e9872767692f4ebd522242465b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3273c9e579b01168b68addec421b12') in 0.022516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039504 seconds.
+  path: Assets/Asset pack for horror game/Models/Wooden table/Wooden table_Roughness.png
+  artifactKey: Guid(90b273d86a33ca24d8c1f0f4479b0b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset pack for horror game/Models/Wooden table/Wooden table_Roughness.png using Guid(90b273d86a33ca24d8c1f0f4479b0b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0004bb455cdaaec60ea4a303615c2b75') in 0.022713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3633.
+Memory consumption went from 75.1 MB to 75.1 MB.
+Total: 3.246200 ms (FindLiveObjects: 0.259000 ms CreateObjectMapping: 0.211300 ms MarkObjects: 2.753500 ms  DeleteObjects: 0.021300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3633.
+Memory consumption went from 75.3 MB to 75.3 MB.
+Total: 3.679800 ms (FindLiveObjects: 0.246700 ms CreateObjectMapping: 0.200700 ms MarkObjects: 3.215000 ms  DeleteObjects: 0.016800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
