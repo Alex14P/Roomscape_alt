@@ -5,6 +5,7 @@ using UnityEngine;
 public class Key : MonoBehaviour
 {
     public GameObject inticon, key, sign1, sign2, sign3, sign4;
+    public AudioSource pickup;
 
     void OnTriggerStay(Collider other){
         if (other.CompareTag("MainCamera")){
@@ -17,6 +18,7 @@ public class Key : MonoBehaviour
                 sign2.SetActive(true);
                 sign3.SetActive(true);
                 sign4.SetActive(true);
+                pickup.Play();
             }
         }
     }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Flashlight : MonoBehaviour
 {
     public GameObject flashlight_ground, inticon, flashlight_player;
-
+    public AudioSource pickup;
     void OnTriggerStay(Collider other){
         if(other.CompareTag("MainCamera")){
             inticon.SetActive(true);
@@ -13,6 +13,7 @@ public class Flashlight : MonoBehaviour
                 flashlight_ground.SetActive(false);
                 inticon.SetActive(false);
                 flashlight_player.SetActive(true);
+                pickup.Play();
             }
         }
     }

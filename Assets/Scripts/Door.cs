@@ -42,6 +42,7 @@ void Start(){
         opened = false;
         door_closed.SetActive(true);
         door_opened.SetActive(false);
+        close.Play();
     }
     void Update(){
         if(keyfound == true){
