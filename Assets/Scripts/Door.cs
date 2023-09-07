@@ -17,7 +17,7 @@ void Start(){
             if(opened == false){
                 if (locked == false){
                     intText.SetActive(true);
-                    if(Input.GetKeyDown(KeyCode.E)){
+                    if(Input.GetKey(KeyCode.E)){
                         door_closed.SetActive(false);
                         door_opened.SetActive(true);
                         intText.SetActive(false);

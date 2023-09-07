@@ -9,7 +9,7 @@ public class Flashlight : MonoBehaviour
     void OnTriggerStay(Collider other){
         if(other.CompareTag("MainCamera")){
             inticon.SetActive(true);
-            if(Input.GetKeyDown(KeyCode.E)){
+            if(Input.GetKey(KeyCode.E)){
                 flashlight_ground.SetActive(false);
                 inticon.SetActive(false);
                 flashlight_player.SetActive(true);
